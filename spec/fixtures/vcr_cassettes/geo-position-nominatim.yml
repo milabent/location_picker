@@ -1,0 +1,96 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://nominatim.openstreetmap.org/search?format=json&q=August-Bebel-Stra%C3%9Fe%204,%2018055%20Rostock
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 May 2015 08:47:24 GMT
+      Server:
+      - Apache/2.4.7 (Ubuntu)
+      X-Powered-By:
+      - PHP/5.5.9-1ubuntu4.9
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Access-Control-Max-Age:
+      - '8640000'
+      Access-Control-Allow-Origin:
+      - "*"
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOiI2MjI1MTYwNSIsImxpY2VuY2UiOiJEYXRhIMKpIE9w
+        ZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cDpcL1wv
+        d3d3Lm9wZW5zdHJlZXRtYXAub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6
+        IndheSIsIm9zbV9pZCI6IjMzODk1Njc5IiwiYm91bmRpbmdib3giOlsiNTQu
+        MDg1MjM1NSIsIjU0LjA4NTM2NjkiLCIxMi4xMzg4NTA5IiwiMTIuMTM5MTAz
+        NyJdLCJsYXQiOiI1NC4wODUzMTQ0NSIsImxvbiI6IjEyLjEzODk3MzIyMTg1
+        NzciLCJkaXNwbGF5X25hbWUiOiI0LCBBdWd1c3QtQmViZWwtU3RyYcOfZSwg
+        U3RhZHRtaXR0ZSwgUm9zdG9jaywgT3J0c2FtdCBNaXR0ZSwgUm9zdG9jaywg
+        TWVja2xlbmJ1cmctVm9ycG9tbWVybiwgMTgwNTUsIERldXRzY2hsYW5kIiwi
+        Y2xhc3MiOiJidWlsZGluZyIsInR5cGUiOiJ5ZXMiLCJpbXBvcnRhbmNlIjow
+        LjQxMX1d
+    http_version: 
+  recorded_at: Wed, 20 May 2015 08:47:24 GMT
+- request:
+    method: get
+    uri: http://nominatim.openstreetmap.org/search?format=json&q=Fakestreet%204,%2018055%20Fakecity
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 May 2015 08:47:24 GMT
+      Server:
+      - Apache/2.4.7 (Ubuntu)
+      X-Powered-By:
+      - PHP/5.5.9-1ubuntu4.9
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Access-Control-Max-Age:
+      - '8640000'
+      Access-Control-Allow-Origin:
+      - "*"
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Wed, 20 May 2015 08:47:24 GMT
+recorded_with: VCR 2.9.3

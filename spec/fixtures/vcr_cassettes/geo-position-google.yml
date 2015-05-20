@@ -1,0 +1,149 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=August-Bebel-Stra%C3%9Fe%204,%2018055%20Rostock&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 06 Mar 2015 11:32:08 GMT
+      Expires:
+      - Sat, 07 Mar 2015 11:32:08 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic,p=0.08
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3Nf
+        Y29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAg
+        ImxvbmdfbmFtZSIgOiAiNCIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1l
+        IiA6ICI0IiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInN0cmVldF9u
+        dW1iZXIiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAg
+        ICAgICAgICAibG9uZ19uYW1lIiA6ICJBdWd1c3QtQmViZWwtU3RyYcOfZSIs
+        CiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJBdWd1c3QtQmViZWwt
+        U3RyYcOfZSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJyb3V0ZSIg
+        XQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAg
+        ICJsb25nX25hbWUiIDogIlN0YWR0bWl0dGUiLAogICAgICAgICAgICAgICAi
+        c2hvcnRfbmFtZSIgOiAiU3RhZHRtaXR0ZSIsCiAgICAgICAgICAgICAgICJ0
+        eXBlcyIgOiBbICJzdWJsb2NhbGl0eV9sZXZlbF8yIiwgInN1YmxvY2FsaXR5
+        IiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7
+        CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIk1pdHRlIiwKICAgICAg
+        ICAgICAgICAgInNob3J0X25hbWUiIDogIk1pdHRlIiwKICAgICAgICAgICAg
+        ICAgInR5cGVzIiA6IFsgInN1YmxvY2FsaXR5X2xldmVsXzEiLCAic3VibG9j
+        YWxpdHkiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAg
+        ICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiUm9zdG9jayIs
+        CiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJSb3N0b2NrIiwKICAg
+        ICAgICAgICAgICAgInR5cGVzIiA6IFsgImxvY2FsaXR5IiwgInBvbGl0aWNh
+        bCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAg
+        ICAgICJsb25nX25hbWUiIDogIk1lY2tsZW5idXJnLVZvcnBvbW1lcm4iLAog
+        ICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiTVYiLAogICAgICAgICAg
+        ICAgICAidHlwZXMiIDogWyAiYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8x
+        IiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7
+        CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIkdlcm1hbnkiLAogICAg
+        ICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiREUiLAogICAgICAgICAgICAg
+        ICAidHlwZXMiIDogWyAiY291bnRyeSIsICJwb2xpdGljYWwiIF0KICAgICAg
+        ICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19u
+        YW1lIiA6ICIxODA1NSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6
+        ICIxODA1NSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJwb3N0YWxf
+        Y29kZSIgXQogICAgICAgICAgICB9CiAgICAgICAgIF0sCiAgICAgICAgICJm
+        b3JtYXR0ZWRfYWRkcmVzcyIgOiAiQXVndXN0LUJlYmVsLVN0cmHDn2UgNCwg
+        MTgwNTUgUm9zdG9jaywgR2VybWFueSIsCiAgICAgICAgICJnZW9tZXRyeSIg
+        OiB7CiAgICAgICAgICAgICJsb2NhdGlvbiIgOiB7CiAgICAgICAgICAgICAg
+        ICJsYXQiIDogNTQuMDg1MjkxNywKICAgICAgICAgICAgICAgImxuZyIgOiAx
+        Mi4xMzg4NzM0CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJsb2NhdGlv
+        bl90eXBlIiA6ICJST09GVE9QIiwKICAgICAgICAgICAgInZpZXdwb3J0IiA6
+        IHsKICAgICAgICAgICAgICAgIm5vcnRoZWFzdCIgOiB7CiAgICAgICAgICAg
+        ICAgICAgICJsYXQiIDogNTQuMDg2NjQwNjgwMjkxNSwKICAgICAgICAgICAg
+        ICAgICAgImxuZyIgOiAxMi4xNDAyMjIzODAyOTE1CiAgICAgICAgICAgICAg
+        IH0sCiAgICAgICAgICAgICAgICJzb3V0aHdlc3QiIDogewogICAgICAgICAg
+        ICAgICAgICAibGF0IiA6IDU0LjA4Mzk0MjcxOTcwODUsCiAgICAgICAgICAg
+        ICAgICAgICJsbmciIDogMTIuMTM3NTI0NDE5NzA4NQogICAgICAgICAgICAg
+        ICB9CiAgICAgICAgICAgIH0KICAgICAgICAgfSwKICAgICAgICAgInBsYWNl
+        X2lkIiA6ICJDaElKUzhYdVhWVlhyRWNSMlgxUk5iTUwxMU0iLAogICAgICAg
+        ICAidHlwZXMiIDogWyAic3RyZWV0X2FkZHJlc3MiIF0KICAgICAgfQogICBd
+        LAogICAic3RhdHVzIiA6ICJPSyIKfQo=
+    http_version: 
+  recorded_at: Fri, 06 Mar 2015 11:32:08 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Fakestreet%204,%2018055%20Fakecity&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 06 Mar 2015 11:32:08 GMT
+      Expires:
+      - Sat, 07 Mar 2015 11:32:08 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic,p=0.08
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+    http_version: 
+  recorded_at: Fri, 06 Mar 2015 11:32:08 GMT
+recorded_with: VCR 2.9.3
