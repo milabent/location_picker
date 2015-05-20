@@ -1,3 +1,7 @@
 = LocationPicker
 
 Map-based picker for longitude and latitude
+
+    # application.js
+    //= require leaflet
+    //= require location_picker
