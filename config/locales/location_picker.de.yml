@@ -1,0 +1,6 @@
+de:
+  location_picker:
+    loading: Bitte warten...
+    address_not_found: Adresse konnte nicht gefunden werden
+    reset: Zurücksetzen
+    search: Addresse suchen

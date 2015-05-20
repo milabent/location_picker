@@ -1,0 +1,24 @@
+//= depend_on_asset "layers.png"
+//= depend_on_asset "layers-2x.png"
+//= require leaflet
+
+.location-picker-map
+  height: 350px
+  z-index: 100
+
+.location-picker-loading,
+.location-picker-address-error
+  display: none
+  position: absolute
+  z-index: 120
+  padding: 5px 10px
+  background: #FFF
+  background: rgba(255, 255, 255, 0.75)
+
+.location-picker-address-error
+  color: #900
+
+.location-picker-buttons
+  text-align: center
+  > button
+    margin: 10px
